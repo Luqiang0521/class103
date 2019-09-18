@@ -55,4 +55,8 @@ public class ElasticSearchManager {
     public void end(){
         client.close();
     }
+@Test
+    public void lisi(){
+          System.out.println("李四");
+    }
 }
