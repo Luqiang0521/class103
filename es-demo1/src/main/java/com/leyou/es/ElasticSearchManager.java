@@ -55,4 +55,8 @@ public class ElasticSearchManager {
     public void end(){
         client.close();
     }
+ @After
+    public void zhangsan(){
+        System.out.println("张三")
+    }
 }
